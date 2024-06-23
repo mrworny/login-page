@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Dashboard</title>
+    <link rel="stylesheet" href="./github.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="top-repositories">
+                <h2>Top Repositories</h2>
+                <ul>
+                    <li><a href="#">mrworny/WONRY.AM</a></li>
+                    <li><a href="#">mrworny/911-4-the-boys</a></li>
+                </ul>
+            </div>
+            <div class="recent-activity">
+                <h2>Recent activity</h2>
+                <p>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="home">
+                <h1>Home</h1>
+                <section class="new-repository">
+                    <h2>Start a new repository for mrworny</h2>
+                    <form>
+                        <label for="repo-name">Repository name *</label>
+                        <input type="text" id="repo-name" name="repo-name">
+                        <div>
+                            <input type="radio" id="public" name="visibility" value="public">
+                            <label for="public">Public</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="private" name="visibility" value="private" checked>
+                            <label for="private">Private</label>
+                        </div>
+                        <button type="submit">Create a new repository</button>
+                    </form>
+                </section>
+                <section class="profile-readme">
+                    <h2>Introduce yourself with a profile README</h2>
+                    <button>Create</button>
+                    <ul>
+                        <li>🔥 Hi, I’m @mrworny</li>
+                        <li>💼 I’m interested in ...</li>
+                        <li>🌱 I’m currently learning ...</li>
+                        <li>👯 I’m looking to collaborate on ...</li>
+                        <li>📫 How to reach me ...</li>
+                        <li>💬 Pronouns: ...</li>
+                        <li>⚡ Fun fact: ...</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <aside class="ads">
+            <div class="ad">
+                <h3>UNIVERSE24</h3>
+                <p>Join us for the 10th anniversary of our global developer event on AI, DevEx, and security.</p>
+                <button>Get tickets</button>
+            </div>
+            <div class="latest-changes">
+                <h2>Latest changes</h2>
+                <ul>
+                    <li>Webhook support for push protection delegated bypass events</li>
+                    <li>New Copilot Enterprise features in VS Code (preview)</li>
+                    <li>New Copilot Enterprise features in Visual Studio (preview)</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
